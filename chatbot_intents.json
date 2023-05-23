@@ -1,0 +1,98 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["hello", "hi", "is anyone there?", "assistance needed", "good morning", "good afternoon", "hiya", "vacation", "holiday", "help", "travel"],
+         "responses": ["Hi, I am a ChatAI. I can assist you with a range of queries such as booking management, flight information, travel upgrades and more! Please let me know how I can help.", "Welcome to (British Airways), I can assist you with a wide range of travel queries, how can I help you today?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["bye", "goodbye", "thanks for your help", "no further questions", "that is all for today", "that was all"],
+         "responses": ["If you're ready to end please type 'quit'. Goodbye and thank you for contacting British Airways", "Glad to have been of assistance to you today, if you're ready to end please type 'quit'. Bye for now from us at British Airways!"],
+         "context_set": ""
+        },
+        {"tag": "covid information",
+         "patterns": ["covid restrictions", "travel restrictions", "covid advice", "covid", "is the place covid 19 safe", "safety", "travel safe", "face masks", "covid 19 test", "do I need a covid 19 test before I travel?"],
+         "responses": ["For information about COVID 19 test requirements and advice for travel to our current worldwide destinations, go to UK government website: https://www.gov.uk/foreign-travel-advice\nDid you need any further information today?"],
+         "context_set": ""
+        },
+        {"tag": "baggage allowance",
+         "patterns": ["what are the baggage allowances", "luggage restriction", "baggage limits", "weight limit", "carry on", "hand luggage"],
+         "responses": ["Our flights allow one piece of carry-on luggage (15kg) and one piece of hand luggage on economy tickets. You can purchase additional checked baggage or check baggage allowance for your ticket class via our website - https://www.britishairways.com\nCould I assist with anything further for now?","One piece of hand and carry-on luggage is included but you can add a 20kg check-in bag for 49.99 pounds. or visit our website for more options - https://www.britishairways.com\nDid you need any further help today?"],
+         "context_set": ""
+        },
+        {"tag": "discounts",
+         "patterns": ["do you offer discounts", "deals", "any seasonal discounts", "armed forces discounts", "nhs discounts", "money off", "discount", "flight discount", "ticket discount","offers"],
+         "responses": ["For information on all the discounts we offer, please see visit our website - https://www.britishairways.com\nDid you need any further help for now?"],
+         "context_set": ""
+        },
+        {"tag": "luggage",
+         "patterns": ["increase luggage", "add bag", "more luggage", "bags", "luggage", "add on bag", "extra baggage", "additional bags"],
+         "responses": ["If you would like to purchase additional baggage for your flight you can do so via manage my booking on https://www.britishairways.com\nCan I assist with anything further?"],
+         "context_set": ""
+        },
+        {"tag": "in-flight meal",
+         "patterns": ["flight meal", "food on board", "purchase meal", "food and drink", "food offers", "dinner package"],
+         "responses": ["You can see our great in-flight meal deal offers and purchase options via manage my booking on https://www.britishairways.com\nDid you need anything further today?"],
+         "context_set": ""
+        },
+        {"tag": "seats",
+         "patterns": ["I want to upgrade seats", "seats", "flight upgrade", "cabin upgrade", "business class", "how to upgrade my flight", "information on first class", "business class", "window seat"],
+         "responses": ["We have some great deals on our seat packages! Please visit https://www.britishairways.com . You may also wish to view upgrade options here.\nWas there anything else I could help with?"],
+         "context_set": ""
+        },
+        {"tag": "hire car",
+         "patterns": ["can I rent a vehicle during travel", "rental information", "hire car options", "vehicle rentals"],
+         "responses": ["We offer a wide range vehicle rentals that can be booked via your online account at https://www.britishairways.com\nWere there any further queries I could help with today?"],
+         "context_set": ""
+        },
+        {"tag": "flight information",
+         "patterns": ["when is the flight to", "update on flight", "flight information", "flight help", "flights", "flight info", "what is my flight terminal", "I need information on my flight", "any delays on my flight", "flight duration"],
+         "responses": ["Please head to the following link and enter your flight number for full flight information:  https://www.flightstats.com/v2\nDid you need any further assistance today?"],
+         "context_set": ""
+        },
+        {"tag": "check in",
+         "patterns": ["view my boarding pass", "I want to check-in","transit information","access ticket", "view tickets","ticket collection","early check in"],
+         "responses": ["For any check-in/boarding information please head to our website where you'll need your booking reference and last name: https://www.britishairways.com/travel/olcilandingpageauthreq/public/en_gb\nDid you need any further assistance today?"],
+         "context_set": ""
+        },
+        {"tag": "cancellation",
+         "patterns": ["I want to cancel my flight", "cancellation",  "how to cancel my flight?", "flight cancellation policy", "cancellations", "flight refunds", "full refund"],
+         "responses": ["Please be aware that you may not be eligible for a refund in line with our cancellations policy.\nIf you want to proceed or wish to discuss this further I would be happy to transfer you to one of our live agents?\nPlease type Yes transfer/No transfer:"],
+         "context_set": ""
+        },
+              {"tag": "transfer",
+               "patterns": ["yep", "transfer me", "i want to be transferred", "yes transfer"],
+               "responses": ["Transferring you to a live agent..."],
+               "context_set": ""
+        },
+              {"tag": "no transfer",
+                "patterns": ["no i do not want to be transferred", "no transfer", "i would not like to be transferred"],
+                "responses": ["No problem! Please let me know if I can help with anything further or type 'quit' to end the chat."],
+                "context_set": ""
+        },
+        {"tag": "seat choice",
+         "patterns": ["can I book my preferred seat", "extra legroom", "new seating", "window seat","how to change my booked seat", "I want another seat", "seat choices"],
+         "responses": ["Please login to your online account to see available seating options(https://www.britishairways.com).\nDid you need any further assistance today?"],
+         "context_set": ""
+        },
+        {"tag": "amend time or date",
+         "patterns": ["I want to change my travel date", "travel date amend", "new date or time", "change dates", "how can I change my travel time", "update booking", "new dates", "flexible flights", "I want another travel time"],
+         "responses": ["Please login to your online account to see available options to amend your travel booking (https://www.britishairways.com) or we can transfer you to one of our live chat agents if you'd like to do this now, please type yes transfer/no transfer to continue."],
+         "context_set": ""
+        },
+        {"tag": "agent",
+         "patterns":  ["agent", "transfer agent", "talk to human", "person help"],
+         "responses": ["Transferring you to the next available live agent now..."],
+         "context_set": ""
+        },
+        {"tag": "yes help",
+         "patterns": ["yes", "yes please", "yeah", "I would like help", "more assistance"],
+         "responses": ["Of course! Please let me know how I can help?"],
+         "context_set": ""
+        },
+        {"tag": "no help",
+         "patterns": ["no", "no thanks", "nope"],
+         "responses": [],
+         "context_set": ""
+        }
+]
+}
